@@ -1,0 +1,46 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap');
+/*VERIABLES*/
+$primary-font: 'Changa',
+sans-serif;
+$secondary-font: 'Open Sans',
+sans-serif;
+$primary-color: #E51515;
+$secondary-color: #14151A;
+$date-color: #FFB320;
+$comment-color: #08ADBD;
+$gray-color: #9F9F9F;
+$light-color: #EFEFEF;
+
+/*UTILITIES*/
+.bg {
+    &-dark {
+        background-color: $secondary-color;
+    }
+
+    &-light {
+        background-color: $light-color;
+    }
+}
+
+.ml {
+    &-2 {
+        // ml-2
+        margin-left: 2rem;
+    }
+}
+
+/*
+.mr {
+    &-2 {
+        // mr-2
+        margin-right: 2rem;
+    }
+}
+*/
+/*MIXINS*/
+@mixin flex-display($display, $align-items, $justify-content) {
+    display: $display;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
