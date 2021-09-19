@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: 0;
+}
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #F04F4F3;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+}
+/*Container*/
+.container{
+	background-color: white;
+	height: 85%;
+	width: 75%;
+	border-radius: 15px;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, .25);
+	display: flex;
+}
+/*LeftSide*/
+.left-side{
+	background-color: #3bb397;
+	flex: 0 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px 0 0 15px;
+}
+/*Button*/
+.left-btn{
+	padding: 10px 60px;
+	border: 1px solid white;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: white;
+}
+.left-btn ,a{
+	text-decoration: none;
+}
+/*left-side-content*/
+.left-side-content{
+	width: 70%;
+	height: 35%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+/*h1 , p*/
+.left-title{
+	font-weight: 700;
+	font-size: 30px;
+}
+.left-p{
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+}
+/*RightSide*/
+.right-side{
+	color: black;
+	flex: 0 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.right-side-content{
+	width: 90%;
+	height: 70%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.right-side-content > h1{
+	color: #3bb397;
+	font-size: 33px;
+}
+.right-side-content > p{
+	color: #a2a2a2;
+}
+/*Svg-icon-desing*/
+.links{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 150px;
+}
+.link{
+	border: 1px solid #ddd;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+}
+.svg-link{
+	width: 15px;
+	height: 15px;
+}
+/*Form-Css*/
+.form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	flex-basis: 60%;
+}
+.form-group{
+	position: relative;
+}
+.input{
+	width: 250px;
+	background-color: #f4f8f7;
+	font-size: 12px;
+	font-weight: 300;
+	padding: 14px 0;
+	padding: 25px;
+}
+.input::placeholder{
+	color: #a2a2a2;
+}
+.svg-form{
+	width: 13px;
+	height: 13px;
+	fill: #a2a2a2;
+	position: absolute;
+	left: 3%;
+	top: 50%;
+	transform: translate(0 , -50%);
+}
+.btn-form{
+	width: 180px;
+	padding: 10px 40px;
+	background-color: #3bb397;
+	border-radius: 30px;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: white;
+}
