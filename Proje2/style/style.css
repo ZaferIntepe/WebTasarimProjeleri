@@ -1,0 +1,109 @@
+/*general main*/
+
+.userTable {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.box {
+    margin-left: 5px;
+}
+
+.box,
+label,
+input {
+    margin-top: 5px;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+ ::placeholder {
+    color: black;
+    font-weight: 500;
+}
+
+#submit {
+    width: 84.5%;
+    height: 5vh;
+}
+
+button {
+    border: none;
+    background-color: aquamarine;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+/*userLogin*/
+
+#username {
+    margin-left: 109px;
+    margin-bottom: 2px;
+}
+
+#usereposta {
+    margin-left: 143px;
+    margin-bottom: 2px;
+}
+
+#userpassword {
+    margin-left: 146px;
+}
+
+
+/*userInfo*/
+
+#personname {
+    margin-left: 147px;
+}
+
+#personsurname {
+    margin-left: 123px;
+    margin-bottom: 2px;
+}
+
+#personcountry {
+    margin-left: 154px;
+    margin-bottom: 2px;
+}
+
+#E {
+    margin-left: 135px;
+}
+
+#personHobby {
+    display: flex;
+}
+
+#hobby {
+    margin-top: 2px;
+    margin-left: 116px;
+    margin-bottom: 2px;
+}
+
+input:focus {
+    outline: 0;
+}

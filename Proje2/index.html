@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Form Desing Style</title>
+</head>
+
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz </h1>
+    <hr/>
+    <h2>Hesap Bilgileriniz</h2>
+    <form action="#">
+        <div class="userTable">
+            <div class="box">
+                <div id="userName">
+                    <label class="font" for="username" name="username">Kullanıcı Adı: </label>
+                    <input type="text" placeholder="Kullanıcı Adı Giriniz" name="username" id="username">
+                </div>
+                <div id="userEposta">
+                    <label class="font" for="usereposta" name="usereposta">Eposta: </label>
+                    <input type="text" placeholder="Eposta Giriniz" name="usereposta" id="usereposta">
+                </div>
+                <div id="userPassword">
+                    <label class="font" for="userpassword" name="userpassword">Parola: </label>
+                    <input type="password" placeholder="Parola Giriniz" name="userpassword" id="userpassword">
+                </div>
+            </div>
+        </div>
+        <h1>Kişisel Bilgileriniz</h1>
+        <div class="userTable">
+            <form action="#">
+                <div class="box">
+                    <div id="personName">
+                        <label class="font" for="personname" name="personname">Adınız: </label>
+                        <input type="text" placeholder="Ad Giriniz" name="personname" id="personname">
+                    </div>
+                    <div id="personSurname">
+                        <label class="font" for="personsurname" name="personsurname">Soyadınız: </label>
+                        <input type="text" placeholder="Soyadı Giriniz" name="personsurname" id="personsurname">
+                    </div>
+                    <div id="personCountry">
+                        <label class="font" for="personcountry">Şehir: </label>
+                        <select name="personcountry" id="personcountry">
+                            <option value="Ankara">Ankara</option>
+                            <option value="Ankara">İstanbul</option>
+                            <option value="Ankara">İzmir</option>
+                        </select>
+                    </div>
+                    <div id="personGender">
+                        <label class="font" for="persongender">Cinsiyet: </label>
+                        <input type="radio" id="E" name="persongender" value="Erkek">
+                        <label for="persongender">Erkek</label>
+                        <input type="radio" id="K" name="persongender" value="Kadın">
+                        <label for="persongender">Kadın</label>
+                    </div>
+                    <div id="personHobby">
+                        <label class="font" for="personhobby">Hobileriniz: </label>
+                        <div id="hobby">
+                            <input type="checkbox" name="cinema" id="cinema" value="sinema">
+                            <label for="cinema">Sinema</label>
+                            <input type="checkbox" name="walk" id="walk" value="gezmek">
+                            <label for="walk" name="walk">Gezmek</label>
+                            <input type="checkbox" name="walk" id="walk" value="gezmek">
+                            <label for="walk" name="walk">Gezmek</label>
+                            <input type="checkbox" name="walk" id="walk" value="gezmek">
+                            <label for="walk" name="walk">Gezmek</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" id="submit">Gönder</button>
+            </form>
+        </div>
+    </form>
+</body>
+
+</html>
