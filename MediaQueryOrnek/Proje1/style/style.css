@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-color: chocolate;
+    color: white;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+}
+
+.leftSide {
+    flex: 0 70%;
+    background-color: red;
+    text-align: justify;
+}
+
+.rightSide {
+    flex: 0 30%;
+    background-color: blueviolet;
+    text-align: justify;
+}
