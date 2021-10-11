@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Gövde*/
+
+.govde {
+    width: 400px;
+    height: 480px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.govde::before {
+    content: "";
+    width: 180px;
+    height: 130px;
+    background-color: orange;
+    border-radius: 45%;
+    position: absolute;
+    bottom: 15%;
+    left: 37%;
+    z-index: 1;
+}
+
+.govde::after {
+    content: "";
+    width: 180px;
+    height: 130px;
+    background-color: orange;
+    border-radius: 45%;
+    position: absolute;
+    bottom: 15%;
+    right: 36%;
+    z-index: 1;
+}
+
+
+/*Gözler*/
+
+.gozler {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.goz {
+    width: 80px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.goz::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*Karın*/
+
+.karin {
+    width: 370px;
+    height: 370px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.karin::before {
+    content: "";
+    height: 100px;
+    width: 250px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+/*Kollar*/
+
+.kollar {
+    width: 24%;
+    background-color: pink;
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+}
+
+.kol {
+    height: 250px;
+    width: 50px;
+    background-color: black;
+    border-radius: 40%;
+    position: absolute;
+}
+
+.sol-kol {
+    left: 0;
+    transform: rotate(30deg);
+    transform-origin: top right;
+}
+
+.sag-kol {
+    right: 0;
+    transform: rotate(-30deg);
+    transform-origin: top left;
+}
+
+
+/*button*/
+
+.button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    position: fixed;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.renk-degis {
+    background-color: green;
+    top: 40%;
+}
+
+.kollari-oynat {
+    background-color: orange;
+    top: 50%;
+}
+
+.renk-degis:hover~.container .govde,
+.renk-degis:hover~.container .kol {
+    background-color: grey;
+}
+
+.kollari-oynat:hover+.container .sol-kol {
+    transform: rotate(50deg);
+}
+
+.kollari-oynat:hover+.container .sag-kol {
+    transform: rotate(-50deg);
+}
+
+.govde:hover::before,
+.govde:hover::after {
+    background-color: red;
+}
