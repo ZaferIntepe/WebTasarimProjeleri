@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+.leftSide{
+	background: #009688;
+	width: 30%;
+	height: 207vh;
+	border-radius: 5px;
+	margin-left: 1%;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 5px 10px 18px #888888;
+}
+.container{
+	display: flex;
+}
+.title{
+	font-weight: 700;
+	font-family: 'Gwendolyn', cursive;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+
+}
+ul li{
+	font-size: 1.3rem;
+	font-family: 'Gwendolyn', cursive;
+	font-weight: 700;
+	margin-bottom: 6%;
+}
+.ability{
+	background-color: white;
+}
+.p1{
+	margin-left: 8%;
+	color: black;
+}
+.skill1{
+	width: 90%;
+	height: 2.5vh;
+	border-radius: 4px;
+	background: #009688;
+	text-align: center;
+}
+.skill2{
+	width: 80%;
+	height: 2.5vh;
+	border-radius: 4px;
+	background: #009688;
+	text-align: center;
+}
+.skill3{
+	width: 70%;
+	height: 2.5vh;
+	border-radius: 4px;
+	background: #009688;
+	text-align: center;
+}
+.skill4{
+	width: 60%;
+	height: 2.5vh;
+	border-radius: 4px;
+	background: #009688;
+	text-align: center;
+	margin-bottom: 5%;
+}
+.language1{
+	width: 90%;
+	height: 2.5vh;
+	border-radius: 4px;
+	background: #fff;
+	text-align: center;
+}
+.language2{
+	width: 80%;
+	height: 2.5vh;
+	border-radius: 4px;
+	background: #fff;
+	text-align: center;
+}
+.language3{
+	width: 70%;
+	height: 2.5vh;
+	border-radius: 4px;
+	background: #fff;
+	text-align: center;
+}
+.language{
+	margin-left: 8%;
+}
+h1 , li , h3 , p{
+	color: #fff;
+	font-family: 'Gwendolyn', cursive;
+	font-size: 1.4rem;
+	letter-spacing: 1.5px;
+}
+.contact{
+	font-size: 2rem;
+}
+.personSkill1{
+	font-size: 1.6rem;
+}
+.personSkill2{
+	font-size: 1.6rem;
+}
+span{
+	background: #009688;
+	border-radius: 3px;
+	padding: 6px;
+	font-size: 10px;
+	color: white;
+	letter-spacing: 3px;
+}
+.topSide{
+	margin-left: 2.5%;
+	width: 95%;
+	height: auto;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 3px 5px 16px #888888;
+	padding: 5px;
+}
+.work{
+	margin-bottom: 4%;
+	margin-left: 2%;
+	border: 5px solid red;
+	border-bottom-style: none;
+	border-top-style: none;
+	border-right-style: none;
+	padding-left: 1.5%;
+	border-radius: 5px;
+}
+.w-title{
+	color: black;
+}
+.bottomSide{
+	margin-top: 2%;
+	margin-left: 2.5%;
+	width: 95%;
+	height: auto;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 3px 5px 16px #888888;
+	padding: 5px;
+}
